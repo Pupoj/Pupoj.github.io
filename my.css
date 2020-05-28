@@ -1,0 +1,113 @@
+body{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+#frame {
+	width: auto;
+	height: 890px;
+	/*background-color: pink;*/
+	padding: 10px;
+	background-image: url("img/fonfoto.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+#header {
+	height: 13%;
+	margin-top: 30px;
+	/*background-color: blue;*/
+	margin-left: 500px;
+	margin-right: 500px;
+}
+#logo {
+	display:block;
+	margin: auto;
+	width: 100px;
+	height: 100px;
+}
+#div1 {
+	height: 30%;
+	width: 100%;
+}
+#div11{
+	/*background-color: brown;*/
+	height: 70%;
+	margin-left: 100px;
+	margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#div11 a {
+
+    text-decoration:none;
+    color: white;
+    /*font-size: 20px;*/
+     /*float:left;*/
+
+
+      
+
+}
+#div12{
+	/*background-color: purple;*/
+	height: 90%;
+	margin-left: 100px;
+	margin-right: 100px;
+	
+}
+
+#div12 p {
+    text-decoration:none;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+  
+}
+
+#div13{
+	/*background-color: red;*/
+	height: 80%;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#MainMenu > li {
+
+    list-style-type: none;
+    display:inline-flex;
+align-items: center
+    width: 100px;
+   }
+
+
+    #MainMenu li ul
+{
+    
+
+    display: none;
+    background-color:white;
+    margin:auto;
+    padding: initial;
+
+}
+
+#MainMenu li li
+{
+    
+
+    list-style-type: none;
+    color:white;
+
+}
+
+#MainMenu li:hover ul
+{
+    
+
+    display: block;
+}
